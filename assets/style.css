@@ -1,0 +1,40 @@
+button {
+  display:block;
+}
+
+li {
+  list-style-type: none;
+}
+
+#start-button {
+  color: black;
+  background-color: rgb(240, 240, 240);
+  border-radius: 3em;
+  width: 20em;
+  height: 5em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100%;
+}
+
+
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+#timer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#view-scores {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 25px;
+  margin-top: 25px;
+}
