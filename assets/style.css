@@ -26,15 +26,34 @@ li {
 }
 
 #timer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  margin: 25px 25px 25px 25px;
+  padding: 10px 10px 10px 10px;
+  border: 10px;
+  border-color: black;
+  border-radius: 3em;
+  color: black;
+  background-color: rgb(240, 240, 240);
+  width: fit-content;
+  float: inline-end;
 }
 
 #view-scores {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   margin-left: 25px;
   margin-top: 25px;
+  color: black;
+  background-color: rgb(240, 240, 240);
+  border-radius: 3em;
+  width: 10em;
+  height: 5em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100%;
+}
+
+#timer{
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
 }
